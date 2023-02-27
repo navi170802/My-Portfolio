@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3383304096.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FULL STACK DEVELOPER</p>
+                <h1>Hi, I'm<span> Naveena</span> <br>from Bannari Amman institute Of Technology</h1>
+            </div>
+        </div>
+       
+<!--------------------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="backimg.jpeg">
+            </div>
+            <div class="about-col-2">
+        
+                <h1 class ="sub-title" >About Me</h1>
+                <p >Self-motivated, self-esteemed, highly passionate and
+                    hardworking fresher looking for an opportunity to
+                    work in a challenging organization to utilize my
+                    skills and knowledge to work for the growth of the
+                    organization.<br> <br>
+                    Currently an undergraduate student who is highly
+                    interested in web developing, designing, coding and
+                    wish to provide effective solutions to the problem
+                    statements</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('TechnicalSkills')">TechnicalSkills</p>
+                    <p class="tab-links" onclick="opentab('Areas Of Interest')">Areas Of Interest</p>
+                    <p class="tab-links" onclick="opentab('Educational Qualification')">Educational Qualification</p>
+                </div>
+                <div class="tab-contents active-tab" id="TechnicalSkills">
+                    <ul>
+                        <li><span>UI/UX </span><br> Designing Web/app interfaces</li>
+                        <br>
+                        <li><span>C </span><br> Solve problems in C language in hackerrank, leetcode, geeksforgeeks</li>
+                        <br>
+                        <li><span>Web Development</span><br> Web app Development</li>
+                        <br>
+                        <li><span>NetBeans Java</span><br> Designing GUI application using JAVA</li>
+                        <br>
+                        <li><span>MySQL</span><br>Database connection with PHP-MySQL </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Areas Of Interest">
+                    <ul>
+                        <li>DBMS</li>
+                        <br>
+                        <li>Digital Marketing</li>
+                        <br>
+                        <li>Web Development</li>
+                        <br>
+                        <li>Creating UI/UX Designs</li>
+                        <br>
+                        <li>App Development</li>   
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Educational Qualification">
+                    <ul>
+                        <li>DEGREE- BANNARI AMMAN INSTITUTE OF
+                            TECHNOLOGY(2020-2024)</span><br> B.TECH - COMPUTER SCIENCE AND
+                            BUSINESS SYSTEM
+                            CGPA: 9.22 (up-to 5th semester)</li>
+                        <br>
+                        <li>12th SRI SANKARA VIDYALAYAA (2019-2020)</span><br> 84.8%</li></li>
+                        <br>
+                        <li>12th SRI SANKARA VIDYALAYAA (2017-2018)</span><br> 92.2%</li></li>
+                    
+                    </ul>
+                </div>
+                
+                </div>
+            
+        </div>
+    </div>
+</div>
+<!-------------------------------------Projects-------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-car"></i>
+
+                <h2> QR VAHAN</h2><br>
+                <p>Duration:(July 2022-Sep 2022)<br>
+                    Role Played: Frontend and Backend Developer<br>
+                    Tools or techniques used: Html, Python<br>
+                    Team-Size: 4<br>
+                    Description:A website where drivers can store <br>their
+                    documents like license, Rc book, Insurance,<BR> permit in
+                    the form of QR code.</p>
+                    <a href="#">Click here</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-rocketchat"></i>
+                <h2> CHAT GPT CRAWLER ENGINE</h2><br>
+                <p>Duration:(December 2022-January 2023)<br>
+                    Role Played: Frontend Developer<br>
+                    Tools or techniques used: React js, javascript<br>
+                    Team-Size: 4<br>
+                    Description: Chatgpt helps users to add a touch of
+                    elegance to their writing style and achieve their literary
+                    goals. And an open ai webpage that uses openai api key
+                    to display the result on user request, and connected
+                    server to client side for smooth functioning of the
+                    application.</p>
+                    <a href="#">Click here</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-whatsapp"></i>
+            <h2> CHATTING APPLICATION</h2><br>
+                <p>Duration:(May 2022-June 2022)<br>
+                    Role Played: UI designer<br>
+                    Tools or techniques used: Flutter, andriod studio, firebase<br>
+                    Team-Size: 5<br>
+                    Description:A chatting application where<br> two people can
+                    share their thoughts with each other in a confidential
+                    manner.</p>
+                    <a href="#">Click here</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-------------------------------------portfolio-------------------------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>QR VAHAN APP </h3>
+                    <p>A website where drivers can store their
+                        documents like license, Rc book, Insurance, permit in
+                        the form of QR code.</p>
+                        <a href="https://github.com/navi170802"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>CHAT GPT CRAWLER ENGINE </h3>
+                    <p>Chatgpt helps users to add a touch of
+                        elegance to their writing style and achieve their literary
+                        goals. And an open ai webpage that uses openai api key
+                        to display the result on user request, and connected
+                        server to client side for smooth functioning of the
+                        application.</p>
+                        <a href="https://github.com/navi170802"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>CHATTING APPLICATION</h3>
+                    <p>A chatting application where two people can
+                        share their thoughts with each other in a confidential
+                        manner.</p>
+                        <a href="https://github.com/navi170802"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------contact------------->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>naveena1708@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt "></i>8778973220</p>
+            <div class="social-icons">
+                <a href="https://twitter.com/Naveena03032287?t=vD0uzCYFOn74gL0gDDO-fg&s=08"> <i class="fab fa-twitter-square"> </i> </a>
+                <a href="https://instagram.com/__nav_ee_na__?igshid=YmJhNjkzNzY="> <i class="fab fa-instagram"> </i> </a>
+                <a href="https://www.linkedin.com/in/naveena-p-011626214/"> <i class="fab fa-linkedin"> </i> </a>
+            </div>
+            <br>
+            <a href="NAVEENA P_202CB127_RESUME.pdf" download class="btn btn2">Download CV </a>
+            
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required> 
+                <input type="email" name="email" placeholder="Your email" required> 
+                <textarea name="Message" rows="6" placeholder="Your Message" required> </textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+    <div class="copyright">
+        <p>Copyright @Naveena's Portfolio<i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+
+
+
+</body>
+</html>
